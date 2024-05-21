@@ -15,4 +15,23 @@ header {
 
 header img{ 
     margin-left: 1px;
+    border: 0;
+}
+
+.rounded {
+    border-radius: 50em;
+    height: 90px;
+    width: 90px;
+    padding: 5px;
+    border: 4px solid transparent;
+    /* background: linear-gradient(white, white) padding-box,
+                linear-gradient(to right, darkblue, darkorchid) border-box; */
+  background: linear-gradient(white, white) padding-box, linear-gradient(to right, #FDBA09, #E0247F) border-box;
+  overflow: hidden;
+}
+
+.rounded img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50em;
 }
