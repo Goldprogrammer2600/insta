@@ -131,6 +131,7 @@ p {
     display: flex;
     justify-content: center;
     background-color: #1FA1FF;
+    align-items: center;
     text-align: center;
     height: 30px;
     width: 366px;
