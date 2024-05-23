@@ -91,7 +91,8 @@ p {
     font-size: 13px;
     color: #004C8B;
     margin-left: 1%;
-    font-family: 'Open Sans';font-size: 13px; }
+    
+}
 
 .link {
     display: flex;
@@ -101,10 +102,27 @@ p {
     margin-left: 1%
 }
 
-.profielen {
+.avatar1, .avatar2, .avatar3 {
     display: flex;
+    border-radius: 50%;
     width: 26px;
     height: 26px;
-    border-radius: 50%;
-    justify-content: space-between;
+    margin-left: -10px;
+}
+
+.profielen {
+    display: flex;
+    justify-content: left;
+    margin-left: 24px;
+}
+
+.rij { 
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+    align-items: center;
+}
+
+.tekst {
+    font-family: 'Open Sans';font-size: 13px; 
 }
