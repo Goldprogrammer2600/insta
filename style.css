@@ -100,3 +100,11 @@ p {
     color: #004C8B;
     margin-left: 1%
 }
+
+.profielen {
+    display: flex;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    justify-content: space-between;
+}
