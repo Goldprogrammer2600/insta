@@ -25,14 +25,6 @@ header img{
     margin-right: 7%;
 }
 
-.punten {
-    display: flex;
-    justify-content: right;
-    margin-right: 3%;
-    align-items: center;
-    margin-top: 10px;
-}
-
 .rounded {
     border-radius: 50em;
     height: 90px;
