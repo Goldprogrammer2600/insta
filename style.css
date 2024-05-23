@@ -67,3 +67,16 @@ header img{
     margin-left: 1%;
     color: grey;
 }
+
+.caption {
+    display: flex;
+    font-size: 13px;
+    margin-left: 1%;
+}
+
+.tag {
+    display: flex;
+    font-size: 13px;
+    color: #004C8B;
+    margin-left: 1%;
+}
