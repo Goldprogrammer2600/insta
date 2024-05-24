@@ -212,6 +212,6 @@ p {
   color: black;
   text-decoration: black;
   justify-content: space-between;
-  max-width: 21em;
-  gap: 2%;
+  max-width: 366px;
+  gap: 16px;
 }
