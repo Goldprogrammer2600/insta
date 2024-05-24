@@ -151,3 +151,48 @@ p {
   cursor: pointer;
   text-decoration: none;
 }
+
+.berichten {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  height: 30px;
+  width: 105px;
+  text-decoration: none;
+  background-color: #efefef;
+  border: none;
+  border-radius: 3px;
+}
+
+.abboneer {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  height: 30px;
+  width: 105px;
+  text-decoration: none;
+  background-color: #efefef;
+  border: none;
+  border-radius: 3px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  height: 30px;
+  width: 105px;
+  text-decoration: none;
+  background-color: #efefef;
+  border: none;
+  border-radius: 3px;
+}
+
+.lijst2 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 21em;
+}
