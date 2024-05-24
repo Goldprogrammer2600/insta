@@ -152,7 +152,7 @@ p {
   text-decoration: none;
 }
 
-.berichten {
+.berichten, .abboneer, .contact {
   display: flex;
   justify-content: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -165,36 +165,7 @@ p {
   border: none;
   border-radius: 3px;
   cursor: pointer;
-}
-
-.abboneer {
-  display: flex;
-  justify-content: center;
-  font-family: Arial, Helvetica, sans-serif;
-  align-items: center;
-  height: 30px;
-  width: 106px;
-  font-weight: 700;
-  text-decoration: none;
-  background-color: #efefef;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-}
-
-.contact {
-  display: flex;
-  justify-content: center;
-  font-family: Arial, Helvetica, sans-serif;
-  align-items: center;
-  height: 30px;
-  width: 105px;
-  font-weight: 700;
-  text-decoration: none;
-  background-color: #efefef;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
+  color: black;
 }
 
 .icoon {
@@ -209,9 +180,18 @@ p {
 
 .lijst2 {
   display: flex;
-  color: black;
   text-decoration: black;
   justify-content: space-between;
   max-width: 366px;
   gap: 16px;
+}
+
+.story1 img {
+    border-radius: 50%;
+   width: 52px;
+   height: 52px;
+}
+
+.story-tekst {
+    display: flex;
 }
