@@ -197,10 +197,21 @@ p {
   cursor: pointer;
 }
 
+.following {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 32px;
+    border-radius: 3px;
+    border: none;
+}
+
 .lijst2 {
   display: flex;
   color: black;
-  text-decoration: none;
+  text-decoration: black;
   justify-content: space-between;
   max-width: 21em;
+  gap: 2%;
 }
