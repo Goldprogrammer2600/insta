@@ -197,14 +197,14 @@ p {
   cursor: pointer;
 }
 
-.following {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30px;
-    width: 32px;
-    border-radius: 3px;
-    border: none;
+.icoon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 32px;
+  border-radius: 3px;
+  border: none;
 }
 
 .lijst2 {
